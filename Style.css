@@ -1,0 +1,222 @@
+/* =========================================================
+   1. QUY TẮC CHUNG (GLOBAL STYLES)
+   ========================================================= */
+* {
+    box-sizing: border-border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+}
+
+/* =========================================================
+   2. HEADER & MENU ĐIỀU HƯỚNG (HEADER & NAVIGATION)
+   ========================================================= */
+header {
+    background-color: #008cba;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 0 0 15px 0;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+    padding: 6px 14px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hiệu ứng khi di chuột vào menu */
+nav a:hover {
+    background-color: #ffffff;
+    color: #008cba;
+}
+
+/* =========================================================
+   3. KHU VỰC NỘI DUNG CHÍNH (MAIN CONTAINER)
+   ========================================================= */
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #008cba;
+    border-bottom: 2px solid #008cba;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #005f73;
+    margin-top: 15px;
+}
+
+/* Hình ảnh chung */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* =========================================================
+   4. THẺ ĐỊA ĐIỂM / BÀI VIẾT (PLACE CARD & ARTICLES)
+   ========================================================= */
+.place-card, article {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
+
+.place-card h3, article h3 {
+    margin-top: 0;
+}
+
+/* Danh sách dạng chấm tròn & số */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* =========================================================
+   5. BẢNG DỮ LIỆU (TABLES)
+   ========================================================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #008cba;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+/* =========================================================
+   6. FORM ĐẶT HÀNG / LIÊN HỆ (FORMS)
+   ========================================================= */
+form p {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444444;
+}
+
+form input[type="text"], 
+form input[type="email"], 
+form input[type="number"], 
+form select, 
+form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+form input[type="text"]:focus, 
+form input[type="email"]:focus, 
+form select:focus, 
+form textarea:focus {
+    border-color: #008cba;
+    outline: none;
+}
+
+/* Nút bấm (Buttons) */
+button, input[type="submit"] {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #005f73;
+}
+
+/* =========================================================
+   7. CHÂN TRANG (FOOTER)
+   ========================================================= */
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
